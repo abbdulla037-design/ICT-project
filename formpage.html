@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            padding: 50px;
+        }
+        .form-container {
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+            width: 100%;
+            max-width: 600px;
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        textarea {
+            height: 120px;
+            resize: none;
+        }
+        button {
+            width: 100%;
+            padding: 12px;
+            background-color: black;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="form-container">
+        <h2>iPhone Review Form</h2>
+        
+        <form>
+            <label>Name:</label>
+            <input type="text" placeholder="Your Name">
+
+            <label>Email:</label>
+            <input type="email" placeholder="Your Email">
+
+            <label>Select iPhone:</label>
+            <select>
+                <option>-- Select iPhone --</option>
+                <option>iPhone 11</option>
+                <option>iPhone 12</option>
+                <option>iPhone 13</option>
+                <option>iPhone 14</option>
+                <option>iPhone 15</option>
+                <option>iPhone 16</option>
+            </select>
+
+            <label>Review:</label>
+            <textarea placeholder="Write your review here..."></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+</body>
+</html>
